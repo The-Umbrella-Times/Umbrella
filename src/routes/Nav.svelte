@@ -64,4 +64,10 @@
     height: 3em;
     width: 3em;
   }
+
+  @media screen and (max-width: 992px) {
+    nav {
+      display: none;
+    }
+  }
 </style>
