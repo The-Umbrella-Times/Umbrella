@@ -1,6 +1,5 @@
 <script>
   import Nav from "./Nav.svelte";
-  import { Input, Label, Helper } from "flowbite-svelte";
   // import { Input, InputWrapper } from '@svelteuidev/core';
   // import { EnvelopeClosed } from 'radix-icons-svelte';
 </script>
@@ -13,20 +12,7 @@
   <section class="hero">
     <h1 class="hero-text">Your Daily Dose of Positivity</h1>
     <p>Be happy, for once.</p>
-    <br />
-
-    <Label class="space-y-2">
-      <Input type="email" placeholder="name@flowbite.com" size="sm" />
-    </Label>
-
-    <div class="canvas">
-      <div class="circles" />
-    </div>
-  </section>
-
-  <section id="about">
-    <h2>Tired of hearing about the same calamities and crises?</h2>
-    <h3>Worry NO More</h3>
+    <!-- <Input icon={EnvelopeClosed} placeholder="Your email"/> -->
   </section>
 
   <section id="footer">
@@ -50,8 +36,8 @@
   .hero-text {
     font-size: 3em;
     position: relative;
-    top: 1px;
-    left: 0px;
+    top: 100px;
+    left: 500px;
     backdrop-filter: blur(10px);
   }
   .hero {
